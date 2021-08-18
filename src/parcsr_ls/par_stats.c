@@ -206,7 +206,7 @@ hypre_BoomerAMGSetupStats( void               *amg_vdata,
    {
       hypre_printf("\n\n Num MPI tasks = %d\n\n",num_procs);
       hypre_printf(" Num OpenMP threads = %d\n\n",num_threads);
-      hypre_printf("\nBoomerAMG SETUP PARAMETERS:\n\n");
+      hypre_printf("\nBoomerAMG SETUP (HP) PARAMETERS:\n\n");
       hypre_printf(" Max levels = %d\n",hypre_ParAMGDataMaxLevels(amg_data));
       hypre_printf(" Num levels = %d\n\n",num_levels);
       hypre_printf(" Strength Threshold = %f\n",
